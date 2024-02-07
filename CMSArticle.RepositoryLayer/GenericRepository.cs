@@ -73,7 +73,7 @@ namespace CMSArticle.RepositoryLayer
                 return false;
             }
         }
-
+        #region Delete
         public bool Delete(int id)
         {
             try
@@ -88,7 +88,7 @@ namespace CMSArticle.RepositoryLayer
                 return false;
             }
         }
-
+        #endregion
         public void Save()
         {
             db.SaveChanges();
